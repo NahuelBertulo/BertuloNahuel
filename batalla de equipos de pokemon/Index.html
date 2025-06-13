@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Batalla Pokémon</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; }
+    #equipo1, #equipo2 {
+      display: inline-block;
+      vertical-align: top;
+      width: 45%;
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+    img { width: 100px; }
+    div { margin-bottom: 10px; }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 20px 0;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Batalla Pokémon</h1>
+  <button id="btn-generar">Generar Equipos</button>
+  <div id="equipo1"><h2>Equipo 1</h2></div>
+  <div id="equipo2"><h2>Equipo 2</h2></div>
+  <div id="dados"></div>
+  <div id="resultado" style="margin-top: 20px; font-weight: bold;"></div>
+
+  <script src="JS\equipospokemon.js"></script>
+</body>
+</html>
+
